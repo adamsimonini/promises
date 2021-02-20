@@ -1,5 +1,5 @@
 // https://docs.spacexdata.com/
-// https://www.w3schools.com/xml/xml_http.asp
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
 // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 console.log("06");
