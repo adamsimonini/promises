@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchonous JavaScript</title>
+</head>
+
+<body>
+    <h1>Asynchonous JavaScript</h1>
+    <div id="app">
+        <div id="ship-list"></div>
+        <div id="ship-data"></div>
+    </div>
+</body>
+<!-- <script src="/01-bad-thing.js"></script> -->
+<!-- <script src="/02-patching-it.js"></script> -->
+<!-- <script src="/03-promises.js"></script> -->
+<!-- <script src="/04-ship-list.js"></script> -->
+<!-- <script src="/05-go-fetch.js"></script> -->
+<script src="/06-awaiting-async.js"></script>
+<style>
+    /* https://www.w3schools.com/css/css_grid.asp */
+    body {
+        font-size: 1rem;
+    }
+
+    #app {
+        display: grid;
+        grid-column-gap: 10px;
+        grid-template: 1fr / 500px 1fr
+    }
+
+    #ship-list {
+        border-right: 2px solid black;
+    }
+
+    .ship:hover {
+        cursor: pointer;
+        color: red;
+        font-size: 1.2rem
+    }
+
+    .ship {
+        transition: font-size;
+        transition: color;
+        transition: all .3s ease-in-out;
+    }
+    #ship-list p {
+        margin: 0;
+        padding: 0;
+        height: 35px;
+    }
+    img {
+        max-width: 800px;
+    }
+</style>
+
+</html>
